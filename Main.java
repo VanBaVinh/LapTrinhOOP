@@ -1,36 +1,47 @@
-import java.awt.print.Book;
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
     public static void main(String[] args) {
-        book b1 = new book();
-        b1.title = "Java";
-        b1.author = "John Doe ";
-        b1.price = 100;
-        b1.inStook = true;
-        b1.printInfo();
-        b1.applyDiscount(10);
-        System.out.println("-------");
 
-        b1.printInfo(); System.out.println("-------");
+        // Tạo mảng 5 object Circle
+        Circle[] circles = new Circle[5];
 
+        // Tạo từng object
+        circles[0] = new Circle();
+        circles[0].radius = 1;
 
-        book b2 = new book();
-        b2.title = "C++";
-        b2.author = "John Doe";
-        b2.price = 150;
-        b2.inStook = true;
-        b2.printInfo();
-        b2.applyDiscount(10);
-        System.out.println("-------");
+        circles[1] = new Circle();
+        circles[1].radius = 2;
 
-        b2.printInfo(); System.out.println("-------");
+        circles[2] = new Circle();
+        circles[2].radius = 3;
 
-        book b3 = new book(); b3.title = "Python";
-        b3.author = "John Doe"; b3.price = 200;
-        b3.inStook = true; b3.printInfo();
-        b3.applyDiscount(10);
-        System.out.println("-------");
-        b3.printInfo();
+        circles[3] = new Circle();
+        circles[3].radius = 4;
+
+        circles[4] = new Circle();
+        circles[4].radius = 5;
+
+        // Biến lưu tổng diện tích
+        double totalArea = 0;
+
+        // Duyệt mảng và in thông tin
+        for (int i = 0; i < circles.length; i++) {
+
+            System.out.println("=== Circle " + (i + 1) + " ===");
+
+            circles[i].printInfo();
+
+            System.out.println("Area: " + circles[i].area());
+
+            System.out.println("Circumference: " + circles[i].circumference());
+
+            System.out.println("----------------");
+
+            // Cộng diện tích
+            totalArea += circles[i].area();
+        }
+
+        // In tổng diện tích
+        System.out.println("Total Area: " + totalArea);
     }
 }
