@@ -1,0 +1,14 @@
+C:\Users\ADMIN\Downloads\ASM_D4_C1\bin\Debug\net9.0\PhanSoApp.exe
+C:\Users\ADMIN\Downloads\ASM_D4_C1\bin\Debug\net9.0\PhanSoApp.deps.json
+C:\Users\ADMIN\Downloads\ASM_D4_C1\bin\Debug\net9.0\PhanSoApp.runtimeconfig.json
+C:\Users\ADMIN\Downloads\ASM_D4_C1\bin\Debug\net9.0\PhanSoApp.dll
+C:\Users\ADMIN\Downloads\ASM_D4_C1\bin\Debug\net9.0\PhanSoApp.pdb
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.dll
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\refint\PhanSoApp.dll
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.pdb
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\PhanSoApp.genruntimeconfig.cache
+C:\Users\ADMIN\Downloads\ASM_D4_C1\obj\Debug\net9.0\ref\PhanSoApp.dll
